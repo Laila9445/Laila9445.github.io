@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laila Mohamed Sarg — CV</title>
+  <meta name="description" content="CV of Laila Mohamed Sarg — Information Technology and Computer Science student at Nile University (Biomedical Informatics, CGPA 3.90)." />
+  <style>
+    :root {
+      --ink: #000000;
+      --muted: #222222;
+      --rule: #333333;
+      --light-rule: #888888;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #f4f3f8;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+    }
+    .toolbar {
+      max-width: 820px;
+      margin: 18px auto 0;
+      padding: 10px 16px;
+      background: #100d19;
+      color: #f2eafa;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 14px;
+    }
+    .toolbar a, .toolbar button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 14px;
+      border-radius: 4px;
+      border: 1px solid #c4a2ff;
+      background: transparent;
+      color: #f2eafa;
+      text-decoration: none;
+      font: 600 13px/1.2 "Segoe UI", Arial, sans-serif;
+      cursor: pointer;
+    }
+    .toolbar .primary {
+      background: #c4a2ff;
+      color: #20112e;
+    }
+    .page {
+      max-width: 820px;
+      margin: 14px auto 36px;
+      background: #ffffff;
+      padding: 0.55in 0.65in;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-family: "Times New Roman", Times, Georgia, serif;
+      font-size: 26pt;
+      font-weight: 400;
+      margin: 0 0 12px;
+      color: var(--ink);
+    }
+    .top-rule {
+      border: 0;
+      border-top: 1.5px solid var(--ink);
+      margin: 0 0 12px;
+    }
+    .statement-title {
+      font-size: 11pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+      text-align: center;
+    }
+    .statement-text {
+      margin: 0 auto 14px;
+      max-width: 660px;
+      text-align: center;
+      font-size: 9.8pt;
+      line-height: 1.5;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      text-align: center;
+      font-size: 9.6pt;
+      margin-bottom: 16px;
+    }
+    .contact-grid strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+    .contact-grid a {
+      color: var(--ink);
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 10.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0 0 7px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid var(--light-rule);
+    }
+    .entry {
+      margin-bottom: 10px;
+      page-break-inside: avoid;
+    }
+    .entry:last-child {
+      margin-bottom: 0;
+    }
+    .entry-title {
+      font-weight: 700;
+      font-size: 10pt;
+      margin-bottom: 2px;
+    }
+    .entry-title.italic {
+      font-style: italic;
+    }
+    .entry-line {
+      margin: 0 0 2px;
+    }
+    ul {
+      margin: 3px 0 0 16px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    .skills-list {
+      margin: 4px 0 0 14px;
+      padding: 0;
+    }
+    .skills-list li {
+      margin-bottom: 4px;
+    }
+    @page {
+      size: A4;
+      margin: 0.5in 0.55in;
+    }
+    @media print {
+      html, body { background: #ffffff; }
+      .toolbar { display: none !important; }
+      .page { margin: 0; padding: 0; max-width: none; box-shadow: none; }
+    }
+    @media (max-width: 640px) {
+      .page { padding: 24px 18px; }
+      .contact-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <span>Laila Mohamed Sarg — CV</span>
+    <div>
+      <a class="primary" href="index.html">← Back to Portfolio</a>
+      <button type="button" onclick="window.print()">Print CV</button>
+    </div>
+  </div>
+
+  <main class="page">
+    <header>
+      <h1>Laila Mohamed Sarg</h1>
+      <hr class="top-rule" />
+      <p class="statement-title">Personal Statement</p>
+      <p class="statement-text">
+        Information Technology and Computer Science student at Nile University, with a strong interest in AI and software applications particularly in healthcare. Passionate about research, artificial intelligence, programming, and bioinformatics.
+      </p>
+      <div class="contact-grid">
+        <div>
+          <strong>Phone:</strong>
+          <span>+20 1279756959</span>
+        </div>
+        <div>
+          <strong>Email:</strong>
+          <a href="mailto:sarglaila@gmail.com">sarglaila@gmail.com</a>
+        </div>
+        <div>
+          <strong>Address:</strong>
+          <span>Banha, Qalyubia, Egypt</span>
+        </div>
+        <div>
+          <strong>Portfolio:</strong>
+          <a href="https://laila9445.github.io/">laila9445.github.io</a>
+        </div>
+      </div>
+    </header>
+
+    <section aria-labelledby="sec-education">
+      <h2 id="sec-education">Education</h2>
+      <div class="entry">
+        <div class="entry-title italic">Nile University – School of Computer Science</div>
+        <p class="entry-line">Major: Biomedical Informatics | Expected Graduation: 2027</p>
+        <p class="entry-line">CGPA: 3.90 | Relevant coursework: Machine Intelligence, Data Analysis, Biomedical Information Systems, Software Engineering, Database Systems, Applied Bioinformatics, Signal Processing.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-title italic">Mostafa Kamel Language School (Graduated at 2023)</div>
+        <p class="entry-line">Relevant subjects: Mathematics, Physics, English, Arabic, Chemistry, and Biology.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="sec-projects">
+      <h2 id="sec-projects">Projects</h2>
+      <div class="entry">
+        <div class="entry-title">Orthopedics Clinic System | BMD302 – UGRF Shortlisted (2025)</div>
+        <ul>
+          <li>Developed a full-stack clinic application using ASP.NET Core 8, Entity Framework Core, and SQL Server for the backend, with a React Native (Expo) frontend.</li>
+          <li>Implemented role-based dashboards, JWT-based authentication and authorization, digital prescriptions, and appointment booking.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Hospital Information System | BMD303 (2025)</div>
+        <ul>
+          <li>Built a centralized .NET hospital management system connecting doctors, nurses, patients, radiologists, physiotherapists, and billing staff.</li>
+          <li>Implemented role-based access, referral workflows, appointments, prescriptions, medical records, and billing.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Breast Cancer Subtype Classification | Bioinformatics and AI Project (2026 – UGRF Shortlisted)</div>
+        <ul>
+          <li>Developed a multi-omics machine learning pipeline integrating RNA-seq and DNA methylation data for breast cancer molecular subtype classification.</li>
+          <li>Applied feature selection and XGBoost, Random Forest, and Support Vector Machine (SVM) models, with SHAP for explainable biomarker discovery.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Graduation Project – Prognosis and Complication Detection of Breast Implants Using Mammography and Clinical Data (In Progress)</div>
+        <ul>
+          <li>Working on the detection of complications in silicone breast implants using mammography and clinical data.</li>
+          <li>Exploring deep learning and computer vision approaches, with the longer-term goal of extending the work toward prognosis.</li>
+          <li>Project work is supported by data from Baheya Hospital.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Integrated Security and Fire Alarm System (2025 – 1<sup>st</sup> place UGRF winner in the Logic Design Category)</div>
+        <ul>
+          <li>Enhanced a Logic Design course project into a practical, real-world application by developing an Arduino-based integrated security and fire alarm system using sensors for threat and fire detection.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="sec-experience">
+      <h2 id="sec-experience">Experience &amp; Extracurricular Activities</h2>
+      <div class="entry">
+        <div class="entry-title">NAID Internship – Biomedical Engineering and Computer Vision Tracks (2026)</div>
+        <ul>
+          <li>Completed a two-month internship at the National Academy of Information Technology for Persons with Disabilities (NAID).</li>
+          <li>Received training in biomedical engineering and computer vision, focusing on assistive technologies.</li>
+          <li>Proposed a computer vision-based project for people with visual impairments.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">AIESEC Global Volunteer | Ankara, Turkey (2025)</div>
+        <ul>
+          <li>Taught English and mathematics to young students in a multicultural environment over six weeks.</li>
+          <li>Collaborated with volunteers from multiple countries, strengthening cross-cultural communication skills.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Google Developer Groups NU AI Course (2025)</div>
+        <ul>
+          <li>Completed an intensive two-month course in AI fundamentals.</li>
+          <li>Built a natural language processing (NLP) system for sentiment, emotion, and writing-style analysis.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">RPM NU Robotics Course (2024)</div>
+        <ul>
+          <li>Completed 36 hours of training in robotics fundamentals, automation, and programming.</li>
+          <li>Designed and programmed an Arduino-based obstacle-avoiding and line-following car using ultrasonic sensors and DC motors.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">IEEE NU HR Committee Member (2023–2024)</div>
+        <ul>
+          <li>Conducted interviews for applicants to multiple committees, monitored and reported committee activities, and helped organize IEEE events.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">ICPC NU Media and Marketing Committee Member (2023–2024)</div>
+        <ul>
+          <li>Managed ICPC social media accounts and participated in ICPC events.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="sec-achievements">
+      <h2 id="sec-achievements">Achievements</h2>
+      <div class="entry">
+        <div class="entry-title">President's Honor – GPA 4.00 (Spring 2025)</div>
+        <ul>
+          <li>Awarded the President's Honor Certificate for achieving a perfect GPA of 4.00 in the Spring 2025 semester.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Dean's Honor – GPA 3.90 (Fall 2025)</div>
+        <ul>
+          <li>Awarded the Dean's Honor Certificate for achieving a GPA of 3.90 in the Fall 2025 semester.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">UGRF Competition – 1st Place, Logic Design Category (2025)</div>
+        <ul>
+          <li>Ranked 1st in the Logic Design category at Nile University's Undergraduate Research Forum (UGRF).</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-title">ECPC Qualifications – Contestant (2025–2026)</div>
+        <ul>
+          <li>2025: Ranked 15th among 66 Nile University teams and 89th among 218 teams overall (Day 4).</li>
+          <li>2026: Ranked 13th among 44 Nile University teams and 39th among 114 teams overall (Day 3).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="sec-skills">
+      <h2 id="sec-skills">Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Programming:</strong> Python, C++, Java, C#, SQL, R</li>
+        <li><strong>Frontend Development:</strong> React, React Native</li>
+        <li><strong>Backend Development and Databases:</strong> FastAPI, ASP.NET Core, Entity Framework Core, SQL Server, PostgreSQL</li>
+        <li><strong>Soft Skills:</strong> Leadership, Communication, Presentation, Teamwork, Adaptability</li>
+        <li><strong>Languages:</strong> Arabic (Native), English (Fluent), Turkish (Intermediate), Italian (Basic)</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
